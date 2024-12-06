@@ -1,0 +1,24 @@
+{
+  "name": "weather-nuitinfo",
+  "private": "true",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "sass": "^1.59.2",
+    "vite": "^4.1.0",
+    "vite-plugin-static-copy": "^0.13.1"
+  },
+  "browserslist": [
+    "> 0%"
+  ],
+  "dependencies": {
+    "weather": "file:",
+    "weather-nuitinfo": "file:"
+  }
+}
