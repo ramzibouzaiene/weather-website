@@ -69,3 +69,88 @@
     }
   }
 }
+.sunny-animation {
+  animation: sunnyEffect 3s infinite;
+  background: linear-gradient(to top, #f7b733, #fc4a1a);
+}
+
+.cloudy-animation {
+  animation: cloudyEffect 3s infinite;
+  background: linear-gradient(to top, #bdc3c7, #2c3e50);
+}
+
+.rainy-animation {
+  animation: rainyEffect 3s infinite;
+  background: linear-gradient(to top, #1e3c72, #2a5298);
+}
+
+.snowy-animation {
+  animation: snowyEffect 3s infinite;
+  background: linear-gradient(to top, #e6e9f0, #eef2f3);
+}
+
+.stormy-animation {
+  animation: stormyEffect 3s infinite;
+  background: linear-gradient(to top, #232526, #414345);
+}
+
+/* Example animation keyframes */
+@keyframes sunnyEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes cloudyEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rainyEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes snowyEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes stormyEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
